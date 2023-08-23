@@ -44,15 +44,27 @@ body {
 .decimal:hover{
     background-color: paleturquoise;
 }
-
-#screen{
-width: 400px;
-border: 1px solid salmon;
-height: 75px;
-}
-.first-rows{
+.first-row{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+#screen{
+width: 300px;
+border: 1px solid salmon;
+height: 75px;
+margin: 15px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+flex-direction: column;
+
+}
+.previous{
+    font-size: 20px;
+}
+.current{
+    font-size: 30px;
 }
